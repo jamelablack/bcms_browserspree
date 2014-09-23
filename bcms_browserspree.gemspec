@@ -12,7 +12,7 @@ Gem::Specification.new do |s|
   s.version     = BcmsBrowserspree::VERSION
   s.authors     = ["Britney Wright","Jam Black"]
   s.email       = ["britney@britneywright.com","jamela.black@gmail.com"]
-  s.homepage    = "TODO"
+  s.homepage    = "http://github.com/browserspree/bcms_browserspree"
   s.summary     = "Spree e-commerce module for BrowserCMS."
   s.description = "Spree e-commerce module for BrowserCMS."
 
