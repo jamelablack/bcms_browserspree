@@ -10,11 +10,11 @@ Gem::Specification.new do |s|
       
   s.name        = "bcms_browserspree"
   s.version     = BcmsBrowserspree::VERSION
-  s.authors     = ["TODO: Your name"]
-  s.email       = ["TODO: Your email"]
+  s.authors     = ["Britney Wright","Jam Black"]
+  s.email       = ["britney@britneywright.com","jamela.black@gmail.com"]
   s.homepage    = "TODO"
-  s.summary     = "TODO: Summary of BcmsBrowserspree."
-  s.description = "TODO: Description of BcmsBrowserspree."
+  s.summary     = "Spree e-commerce module for BrowserCMS."
+  s.description = "Spree e-commerce module for BrowserCMS."
 
   s.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.rdoc"]
     s.files -= Dir['lib/tasks/module_tasks.rake']
