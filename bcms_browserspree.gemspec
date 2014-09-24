@@ -5,7 +5,6 @@ require "bcms_browserspree/version"
 
 # Describe your gem and declare its dependencies:
 Gem::Specification.new do |s|
-      s.add_dependency "browsercms", "~> 4.0.0.beta"
       s.add_dependency "spree", "~> 2.2.4"
       
   s.name        = "bcms_browserspree"
