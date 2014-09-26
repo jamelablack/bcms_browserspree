@@ -7,8 +7,8 @@ namespace :db do
   task :install => %w{ db:create db:migrate db:seed }
 
   namespace :seed do
-    desc "Load the seed data from db/bcms_news.seeds.rb."
-    task :bcms_news => :environment do
+    desc "Load the seed data from db/bcms_browserspree.seeds.rb."
+    task :bcms_browserspree => :environment do
       require "#{Rails.root}/db/bcms_browserspree.seeds.rb"
     end
   end
