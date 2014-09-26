@@ -32,5 +32,3 @@ end
 
 
 task default: :test
-
-load 'lib/tasks/module_tasks.rake'
