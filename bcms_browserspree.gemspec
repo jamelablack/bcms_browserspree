@@ -5,9 +5,8 @@ require "bcms_browserspree/version"
 
 # Describe your gem and declare its dependencies:
 Gem::Specification.new do |s|
-      s.add_dependency "spree", "~> 2.2.4"
-      s.add_dependency 'actionpack', '~> 4.0.6'
-      s.add_dependency "spree", "~> 2.2.4"
+      s.add_dependency "spree", "~> 2.2"
+      s.add_dependency 'actionpack', '~> 4.0'
       s.add_dependency'sass-rails', '~> 4.0.3'
       s.add_dependency'coffee-rails', '~> 4.0.0'
 
