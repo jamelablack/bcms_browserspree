@@ -18,7 +18,7 @@ Gem::Specification.new do |s|
   s.homepage    = "http://github.com/browserspree/bcms_browserspree"
   s.summary     = "Spree e-commerce integration module for BrowserCMS."
   s.description = "Spree e-commerce integration module for BrowserCMS."
-  s.license      = ["MIT License (MIT)"]
+  s.license     = %q{MIT-LICENSE}
 
   s.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.rdoc"]
     s.files -= Dir['lib/tasks/module_tasks.rake']
