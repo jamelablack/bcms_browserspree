@@ -9,7 +9,6 @@ Gem::Specification.new do |s|
       s.add_dependency 'actionpack', '~> 4.0'
       s.add_dependency'sass-rails', '~> 4.0.3'
       s.add_dependency'coffee-rails', '~> 4.0.0'
-      s.add_dependency 'spree_gateway', '~> 2-2-stable'
 
   s.name        = "bcms_browserspree"
   s.version     = BcmsBrowserspree::VERSION
