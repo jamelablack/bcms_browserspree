@@ -13,9 +13,13 @@ class BcmsBrowserspree::InstallGenerator < Cms::ModuleInstallation
     copy_file "../bcms_browserspree.seeds.rb", "db/bcms_browserspree.seeds.rb"
     append_to_file "db/seeds.rb", "load File.expand_path('../bcms_browserspree.seeds.rb', __FILE__)\n"
   end
-  
-  def add_routes
-    mount_engine(BcmsBrowserspree)
-  end
+
+  def add_gems
+    inside @app_path do
+      gem :spree_gateway, :git => "https://github.com/spree/spree_gateway.git", :branch => "2-2-stable"
+    end
+
+    run 'bundle install', :capture => true
+  end  
     
 end
