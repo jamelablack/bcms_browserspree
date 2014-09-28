@@ -15,9 +15,7 @@ class BcmsBrowserspree::InstallGenerator < Cms::ModuleInstallation
   end
 
   def add_gems
-    inside @app_path do
-      gem :spree_gateway, :git => "https://github.com/spree/spree_gateway.git", :branch => "2-2-stable"
-    end
+    append_to_file "Gemfile.rb", 'gem :spree_gateway, :git => "https://github.com/spree/spree_gateway.git", :branch => "2-2-stable"'
 
     run 'bundle install', :capture => true
   end  
